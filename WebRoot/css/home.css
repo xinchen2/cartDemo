@@ -1,0 +1,179 @@
+*,body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.navbar{
+	border:none;
+}
+.active {
+	background-color: #F07818;
+	border-right-color: #F07818;
+}
+
+.hidden{
+	display:none;
+}
+
+#header {
+	background-color: #5D4B33;
+	color: red;
+	width: 70%; margin: 0 auto;
+}
+#header .border {
+	border-right: 1px solid white;
+}
+
+#header ul li:hover {
+	background-color: #F07818;
+}
+#header ul li a {
+	color: red;
+}
+#header div {
+	height: 50px;
+}
+		#header .imooc{
+			line-height: 50px; ; text-align: center;
+		}
+		#header .imooc span{
+			font-size: 25px;
+		}
+#headIcon span {
+	font-size: 20px;
+}
+#banner{
+	height: 460px; background-color:aliceblue;padding-top:140px;
+}
+#title>div:first-child{
+	font-size: 70px;
+}
+#title>div:nth-child(2){
+	margin: 5px 0px 30px 0px;
+}
+#title span{
+	box-shadow: 0 0 0 5px black; padding:5px 30px;
+}
+#goods{
+	width: 65%; text-align: center; margin: 0px auto; padding-top: 80px;
+}
+#link{
+	background-color:cadetblue;
+}
+#link>div{
+	width: 70%; margin: 0px auto; height: 230px; padding-top:50px;
+}
+#link span{
+	color:dimgrey;
+	font-size: 12px;
+	line-height: 25px;
+}
+#link span:first-child{
+	color:orange;
+	font-size: 16px;
+	line-height: 40px;
+}
+#search{
+	height: 190px; text-align: center; background: red; padding-top: 60px;
+}
+#search input{
+		height: 40px; width: 400px;padding-left: 10px; 
+	}
+#search span{
+	padding:12px 20px; background-color: orange
+}
+#footer{
+	height: 60px; background-color:#5D4B33; text-align: center; line-height: 60px;
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+	*{
+		font-size:12px;
+	}
+	#headIcon span{
+			font-size: 16px;
+	}
+	#header div{
+		padding:0px;
+	}
+	#link>div{
+		height: 380px;
+	}
+}
+
+@media screen  and (max-width:768px){
+	*{
+		font-size: 8px;
+	}
+	
+	#header{
+/*		width: 100%;*/
+	}
+	#header .imooc span{
+			font-size: 14px;
+		}
+	#headIcon span{
+		font-size: 10px;
+	}
+	#header div{
+		padding:0px;
+	}
+	#link>div{
+		width: 100%; 
+		height: 360px;
+	}
+	
+
+}
+
+@media screen and (max-width:600px){
+	#banner{
+		height: 300px; 
+		padding-top:80px;
+	}
+	#title>div:first-child{
+		font-size: 30px;
+	}
+	#goods{
+		padding-top: 40px;
+	}
+	#search{
+		
+	}
+	#search input{
+		height: 30px; width: 200px; 
+	}
+	#search span{
+		padding:8px 15px; background-color: orange
+	}
+	#link span{
+	font-size: 8px;
+	line-height: 20px;
+	}
+	#link span:first-child{
+		font-size: 12px;
+		line-height: 30px;
+	}
+	#link>div{
+		padding-top:0px;
+		height: 280px;
+	}
+}
+
+@media screen and (max-width:400px){
+	#link>div{
+		height: 300px;
+	}
+	#footer{
+		height: 40px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (max-width:320px){
+	#link>div{
+		height: 320px;
+	}
+}
+
